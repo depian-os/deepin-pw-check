@@ -19,7 +19,7 @@ Homepage: http://www.deepin.org
 Package: deepin-pw-check
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends},
- policykit-1,
+ pkexec,polkitd,
 Description: deepin password check interface
  deepin-pw-check is a tool to verify the validity of the password
 
